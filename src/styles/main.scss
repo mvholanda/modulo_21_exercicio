@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(3, 3, 3);
+    font-family: "Roboto", sans-serif;
+}
+
+$corDoTexto: rgb(211, 211, 211);
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5.6vw;
+    width: 100vw;
+
+    @media (min-width: 360px) and (max-width: 767px) {
+        margin-bottom: 56px;
+    }
+
+    &__item {
+        border-radius: 100px;
+        margin-bottom: 8vw;
+        width: 100%;
+    }
+}
+
+.sinopse {
+    padding: 5.6vw;
+
+    @media (min-width: 360px) and (max-width: 767px) {
+        margin-bottom: 56px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        margin-bottom: 64px;
+    }
+
+    &__titulo {
+        font-size: 42px;
+        color: $corDoTexto;
+        font-weight: bold;
+
+        @media (min-width: 360px) and (max-width: 767px) {
+            font-size: 24px;
+        }
+    }
+
+    &__conteudo {
+        display: flex;
+        align-items: center;
+
+        @media (min-width: 360px) and (max-width: 767px) {
+            display: block;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            display: block;
+            align-items: center;
+        }
+
+        &__imagem {
+            margin-left: 50px;
+            height: 450px;
+            margin-right: 32px;
+            border-radius: 100px;
+
+            @media (min-width: 360px) and (max-width: 767px) {
+                margin: 0;
+                max-width: 300px;
+                height: 230px;
+                border-radius: 40px;
+                margin-bottom: 16px;
+            }
+        }
+
+        &__texto {
+            font-size: 20px;
+            color: $corDoTexto;
+
+            @media (min-width: 360px) and (max-width: 767px) {
+                font-size: 16px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+                font-size: 18px;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+.producao {
+    padding: 5.6vw;
+
+    @media (min-width: 360px) and (max-width: 767px) {
+        margin-bottom: 56px;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        margin-bottom: 64px;
+    }
+
+    &__titulo {
+        font-size: 42px;
+        color: $corDoTexto;
+        font-weight: bold;
+
+        @media (min-width: 360px) and (max-width: 767px) {
+            font-size: 24px;
+        }
+    }
+
+    &__conteudo {
+        display: flex;
+        align-items: center;
+
+        @media (min-width: 360px) and (max-width: 767px) {
+            display: block;
+            text-align: center;
+        }
+
+        @media (min-width: 768px) and (max-width: 1024px) {
+            display: block;
+            align-items: center;
+        }
+
+        &__imagem {
+            margin-left: 50px;
+            height: 450px;
+            margin-right: 32px;
+            border-radius: 100px;
+
+            @media (min-width: 360px) and (max-width: 767px) {
+                margin: 0;
+                max-width: 300px;
+                height: 230px;
+                border-radius: 40px;
+                margin-bottom: 16px;
+            }
+        }
+
+        &__texto {
+            font-size: 20px;
+            color: $corDoTexto;
+
+            @media (min-width: 360px) and (max-width: 767px) {
+                font-size: 16px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1024px) {
+                font-size: 18px;
+                font-weight: 200;
+            }
+        }
+    }
+}
+
+.onde-assistir {
+    padding: 5.6vw;
+
+    &__titulo {
+        font-size: 42px;
+        color: $corDoTexto;
+        font-weight: bold;
+    }
+
+    &__conteudo {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+
+        &__imagem {
+            height: 55px;
+            border-radius: 100px;
+            align-items: center;
+        }
+
+        &__texto {
+            font-size: 14px;
+            color: $corDoTexto;
+            text-align: center;
+            width: 128px;
+            text-decoration: underline;
+        }
+    }
+}
+
+.line-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
